@@ -1,0 +1,25 @@
+/*reset css */
+@import url("./reset.less");
+@import url("../font/stylesheet.css");
+
+body {
+  position: relative;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 2vw 18.6vw 2.60vw 18.6vw;
+  background: #131316;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@import url("./style.mobile.min.less") (max-width: 767px);
+@import url("./style.tablet.min.less") (min-width: 768px) and (max-width: 1365px);
+@import url("./style.desktope.min.less") (min-width: 1000px);
+
+
